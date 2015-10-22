@@ -1,0 +1,23 @@
+{
+  "name": "formula-indirect",
+  "version": "0.1.0",
+  "description": "INDIRECT function",
+  "main": "INDIRECT.js",
+  "scripts": {
+    "test": "mocha -r jscoverage -R spec test",
+    "build": "babel INDIRECT.es6 -m umd --out-file INDIRECT.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FormulaPages/indirect.git"
+  },
+  "author": "Peter Moresi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FormulaPages/indirect/issues"
+  },
+  "homepage": "https://github.com/FormulaPages/indirect#readme",
+  "devDependencies": {
+    "jscoverage": "^0.6.0"
+  }
+}

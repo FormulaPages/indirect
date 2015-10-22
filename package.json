@@ -19,5 +19,8 @@
   "homepage": "https://github.com/FormulaPages/indirect#readme",
   "devDependencies": {
     "jscoverage": "^0.6.0"
+  },
+  "dependencies": {
+    "formula-cell": "^0.1.1"
   }
 }
